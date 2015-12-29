@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'big_int' target in the 'big_int' project.
+//
+
+#include <Carbon/Carbon.h>
+#include "HIFramework.h"
+#include "TApplication.h"
+#include "TWindow.h"

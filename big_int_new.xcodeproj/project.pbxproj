@@ -7,17 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C9A7BBF1644DB3A003FD806 /* big_int_new.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A7BBE1644DB3A003FD806 /* big_int_new.cp */; };
+		8C9A7BDC1644DBC4003FD806 /* big_int_add_sub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A7BC51644DBC4003FD806 /* big_int_add_sub.cpp */; };
+		8C9A7BDD1644DBC4003FD806 /* big_int_add_sub.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9A7BC61644DBC4003FD806 /* big_int_add_sub.h */; };
+		8C9A7BDE1644DBC4003FD806 /* big_int_divide.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A7BC71644DBC4003FD806 /* big_int_divide.cpp */; };
+		8C9A7BDF1644DBC4003FD806 /* big_int_divide.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9A7BC81644DBC4003FD806 /* big_int_divide.h */; };
+		8C9A7BE01644DBC4003FD806 /* big_int_io.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A7BC91644DBC4003FD806 /* big_int_io.cpp */; };
+		8C9A7BE11644DBC4003FD806 /* big_int_io.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9A7BCA1644DBC4003FD806 /* big_int_io.h */; };
+		8C9A7BE21644DBC4003FD806 /* big_int_multiply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A7BCB1644DBC4003FD806 /* big_int_multiply.cpp */; };
+		8C9A7BE31644DBC4003FD806 /* big_int_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 8C9A7BCC1644DBC4003FD806 /* big_int_Prefix.pch */; };
+		8C9A7BE41644DBC4003FD806 /* big_int_sqrt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A7BCD1644DBC4003FD806 /* big_int_sqrt.cpp */; };
+		8C9A7BE51644DBC4003FD806 /* big_int_sqrt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9A7BCE1644DBC4003FD806 /* big_int_sqrt.h */; };
+		8C9A7BE61644DBC4003FD806 /* big_int.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9A7BCF1644DBC4003FD806 /* big_int.h */; };
+		8C9A7BE71644DBC4003FD806 /* decimal_converter_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A7BD01644DBC4003FD806 /* decimal_converter_func.cpp */; };
+		8C9A7BE81644DBC4003FD806 /* decimal_converter_func.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9A7BD11644DBC4003FD806 /* decimal_converter_func.h */; };
+		8C9A7BE91644DBC4003FD806 /* fft.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9A7BD21644DBC4003FD806 /* fft.h */; };
+		8C9A7BEA1644DBC4003FD806 /* multithread_radix_convert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A7BD31644DBC4003FD806 /* multithread_radix_convert.cpp */; };
+		8C9A7BEB1644DBC4003FD806 /* multithread_radix_convert.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9A7BD41644DBC4003FD806 /* multithread_radix_convert.h */; };
+		8C9A7BEC1644DBC4003FD806 /* multithreaded_fourier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A7BD51644DBC4003FD806 /* multithreaded_fourier.cpp */; };
+		8C9A7BED1644DBC4003FD806 /* multithreaded_fourier.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9A7BD61644DBC4003FD806 /* multithreaded_fourier.h */; };
+		8C9A7BEE1644DBC4003FD806 /* ordinary_radix_converter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A7BD71644DBC4003FD806 /* ordinary_radix_converter.cpp */; };
+		8C9A7BEF1644DBC4003FD806 /* ordinary_radix_converter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9A7BD81644DBC4003FD806 /* ordinary_radix_converter.h */; };
+		8C9A7BF01644DBC4003FD806 /* thread_type.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9A7BD91644DBC4003FD806 /* thread_type.h */; };
+		8C9A7BF11644DBC4003FD806 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A7BDA1644DBC4003FD806 /* thread.cpp */; };
+		8C9A7BF21644DBC4003FD806 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9A7BDB1644DBC4003FD806 /* thread.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C76EF521C2F67F300F3AD57 /* log.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = log.txt; path = ../../big_int/log.txt; sourceTree = "<group>"; };
 		8C9A7BB51644DB3A003FD806 /* big_int_new.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = big_int_new.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9A7BB91644DB3A003FD806 /* big_int_new-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "big_int_new-Prefix.pch"; sourceTree = "<group>"; };
 		8C9A7BBA1644DB3A003FD806 /* big_int_newProj.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = big_int_newProj.xcconfig; sourceTree = "<group>"; };
 		8C9A7BBB1644DB3A003FD806 /* big_int_newTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = big_int_newTarget.xcconfig; sourceTree = "<group>"; };
-		8C9A7BBC1644DB3A003FD806 /* big_int_new.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = big_int_new.h; sourceTree = "<group>"; };
-		8C9A7BBD1644DB3A003FD806 /* big_int_newPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = big_int_newPriv.h; sourceTree = "<group>"; };
-		8C9A7BBE1644DB3A003FD806 /* big_int_new.cp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = big_int_new.cp; sourceTree = "<group>"; };
+		8C9A7BC51644DBC4003FD806 /* big_int_add_sub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = big_int_add_sub.cpp; sourceTree = "<group>"; };
+		8C9A7BC61644DBC4003FD806 /* big_int_add_sub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = big_int_add_sub.h; sourceTree = "<group>"; };
+		8C9A7BC71644DBC4003FD806 /* big_int_divide.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = big_int_divide.cpp; sourceTree = "<group>"; };
+		8C9A7BC81644DBC4003FD806 /* big_int_divide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = big_int_divide.h; sourceTree = "<group>"; };
+		8C9A7BC91644DBC4003FD806 /* big_int_io.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = big_int_io.cpp; sourceTree = "<group>"; };
+		8C9A7BCA1644DBC4003FD806 /* big_int_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = big_int_io.h; sourceTree = "<group>"; };
+		8C9A7BCB1644DBC4003FD806 /* big_int_multiply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = big_int_multiply.cpp; sourceTree = "<group>"; };
+		8C9A7BCC1644DBC4003FD806 /* big_int_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = big_int_Prefix.pch; sourceTree = "<group>"; };
+		8C9A7BCD1644DBC4003FD806 /* big_int_sqrt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = big_int_sqrt.cpp; sourceTree = "<group>"; };
+		8C9A7BCE1644DBC4003FD806 /* big_int_sqrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = big_int_sqrt.h; sourceTree = "<group>"; };
+		8C9A7BCF1644DBC4003FD806 /* big_int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = big_int.h; sourceTree = "<group>"; };
+		8C9A7BD01644DBC4003FD806 /* decimal_converter_func.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = decimal_converter_func.cpp; sourceTree = "<group>"; };
+		8C9A7BD11644DBC4003FD806 /* decimal_converter_func.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decimal_converter_func.h; sourceTree = "<group>"; };
+		8C9A7BD21644DBC4003FD806 /* fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fft.h; sourceTree = "<group>"; };
+		8C9A7BD31644DBC4003FD806 /* multithread_radix_convert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = multithread_radix_convert.cpp; sourceTree = "<group>"; };
+		8C9A7BD41644DBC4003FD806 /* multithread_radix_convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multithread_radix_convert.h; sourceTree = "<group>"; };
+		8C9A7BD51644DBC4003FD806 /* multithreaded_fourier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = multithreaded_fourier.cpp; sourceTree = "<group>"; };
+		8C9A7BD61644DBC4003FD806 /* multithreaded_fourier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multithreaded_fourier.h; sourceTree = "<group>"; };
+		8C9A7BD71644DBC4003FD806 /* ordinary_radix_converter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ordinary_radix_converter.cpp; sourceTree = "<group>"; };
+		8C9A7BD81644DBC4003FD806 /* ordinary_radix_converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ordinary_radix_converter.h; sourceTree = "<group>"; };
+		8C9A7BD91644DBC4003FD806 /* thread_type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread_type.h; sourceTree = "<group>"; };
+		8C9A7BDA1644DBC4003FD806 /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread.cpp; sourceTree = "<group>"; };
+		8C9A7BDB1644DBC4003FD806 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +95,30 @@
 			children = (
 				8C9A7BBA1644DB3A003FD806 /* big_int_newProj.xcconfig */,
 				8C9A7BBB1644DB3A003FD806 /* big_int_newTarget.xcconfig */,
-				8C9A7BBC1644DB3A003FD806 /* big_int_new.h */,
-				8C9A7BBD1644DB3A003FD806 /* big_int_newPriv.h */,
-				8C9A7BBE1644DB3A003FD806 /* big_int_new.cp */,
+				8C76EF521C2F67F300F3AD57 /* log.txt */,
+				8C9A7BC51644DBC4003FD806 /* big_int_add_sub.cpp */,
+				8C9A7BC61644DBC4003FD806 /* big_int_add_sub.h */,
+				8C9A7BC71644DBC4003FD806 /* big_int_divide.cpp */,
+				8C9A7BC81644DBC4003FD806 /* big_int_divide.h */,
+				8C9A7BC91644DBC4003FD806 /* big_int_io.cpp */,
+				8C9A7BCA1644DBC4003FD806 /* big_int_io.h */,
+				8C9A7BCB1644DBC4003FD806 /* big_int_multiply.cpp */,
+				8C9A7BCC1644DBC4003FD806 /* big_int_Prefix.pch */,
+				8C9A7BCD1644DBC4003FD806 /* big_int_sqrt.cpp */,
+				8C9A7BCE1644DBC4003FD806 /* big_int_sqrt.h */,
+				8C9A7BCF1644DBC4003FD806 /* big_int.h */,
+				8C9A7BD01644DBC4003FD806 /* decimal_converter_func.cpp */,
+				8C9A7BD11644DBC4003FD806 /* decimal_converter_func.h */,
+				8C9A7BD21644DBC4003FD806 /* fft.h */,
+				8C9A7BD31644DBC4003FD806 /* multithread_radix_convert.cpp */,
+				8C9A7BD41644DBC4003FD806 /* multithread_radix_convert.h */,
+				8C9A7BD51644DBC4003FD806 /* multithreaded_fourier.cpp */,
+				8C9A7BD61644DBC4003FD806 /* multithreaded_fourier.h */,
+				8C9A7BD71644DBC4003FD806 /* ordinary_radix_converter.cpp */,
+				8C9A7BD81644DBC4003FD806 /* ordinary_radix_converter.h */,
+				8C9A7BD91644DBC4003FD806 /* thread_type.h */,
+				8C9A7BDA1644DBC4003FD806 /* thread.cpp */,
+				8C9A7BDB1644DBC4003FD806 /* thread.h */,
 				8C9A7BB81644DB3A003FD806 /* Supporting Files */,
 			);
 			path = big_int_new;
@@ -75,6 +139,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C9A7BDD1644DBC4003FD806 /* big_int_add_sub.h in Headers */,
+				8C9A7BDF1644DBC4003FD806 /* big_int_divide.h in Headers */,
+				8C9A7BE11644DBC4003FD806 /* big_int_io.h in Headers */,
+				8C9A7BE31644DBC4003FD806 /* big_int_Prefix.pch in Headers */,
+				8C9A7BE51644DBC4003FD806 /* big_int_sqrt.h in Headers */,
+				8C9A7BE61644DBC4003FD806 /* big_int.h in Headers */,
+				8C9A7BE81644DBC4003FD806 /* decimal_converter_func.h in Headers */,
+				8C9A7BE91644DBC4003FD806 /* fft.h in Headers */,
+				8C9A7BEB1644DBC4003FD806 /* multithread_radix_convert.h in Headers */,
+				8C9A7BED1644DBC4003FD806 /* multithreaded_fourier.h in Headers */,
+				8C9A7BEF1644DBC4003FD806 /* ordinary_radix_converter.h in Headers */,
+				8C9A7BF01644DBC4003FD806 /* thread_type.h in Headers */,
+				8C9A7BF21644DBC4003FD806 /* thread.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +206,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C9A7BBF1644DB3A003FD806 /* big_int_new.cp in Sources */,
+				8C9A7BDC1644DBC4003FD806 /* big_int_add_sub.cpp in Sources */,
+				8C9A7BDE1644DBC4003FD806 /* big_int_divide.cpp in Sources */,
+				8C9A7BE01644DBC4003FD806 /* big_int_io.cpp in Sources */,
+				8C9A7BE21644DBC4003FD806 /* big_int_multiply.cpp in Sources */,
+				8C9A7BE41644DBC4003FD806 /* big_int_sqrt.cpp in Sources */,
+				8C9A7BE71644DBC4003FD806 /* decimal_converter_func.cpp in Sources */,
+				8C9A7BEA1644DBC4003FD806 /* multithread_radix_convert.cpp in Sources */,
+				8C9A7BEC1644DBC4003FD806 /* multithreaded_fourier.cpp in Sources */,
+				8C9A7BEE1644DBC4003FD806 /* ordinary_radix_converter.cpp in Sources */,
+				8C9A7BF11644DBC4003FD806 /* thread.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +308,7 @@
 				8C9A7BC41644DB3A003FD806 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
