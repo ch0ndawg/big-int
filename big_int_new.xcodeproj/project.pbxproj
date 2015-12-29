@@ -33,7 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C76EF521C2F67F300F3AD57 /* log.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = log.txt; path = ../../big_int/log.txt; sourceTree = "<group>"; };
+		8C3EF24A1C3263C6006F7EF5 /* log.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = log.txt; sourceTree = "<group>"; };
 		8C9A7BB51644DB3A003FD806 /* big_int_new.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = big_int_new.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9A7BB91644DB3A003FD806 /* big_int_new-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "big_int_new-Prefix.pch"; sourceTree = "<group>"; };
 		8C9A7BBA1644DB3A003FD806 /* big_int_newProj.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = big_int_newProj.xcconfig; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 			children = (
 				8C9A7BBA1644DB3A003FD806 /* big_int_newProj.xcconfig */,
 				8C9A7BBB1644DB3A003FD806 /* big_int_newTarget.xcconfig */,
-				8C76EF521C2F67F300F3AD57 /* log.txt */,
 				8C9A7BC51644DBC4003FD806 /* big_int_add_sub.cpp */,
+				8C3EF24A1C3263C6006F7EF5 /* log.txt */,
 				8C9A7BC61644DBC4003FD806 /* big_int_add_sub.h */,
 				8C9A7BC71644DBC4003FD806 /* big_int_divide.cpp */,
 				8C9A7BC81644DBC4003FD806 /* big_int_divide.h */,
