@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C3EF24E1C45CF97006F7EF5 /* mandel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3EF24D1C45CF97006F7EF5 /* mandel.cpp */; };
 		8C9A7BDC1644DBC4003FD806 /* big_int_add_sub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A7BC51644DBC4003FD806 /* big_int_add_sub.cpp */; };
 		8C9A7BDD1644DBC4003FD806 /* big_int_add_sub.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9A7BC61644DBC4003FD806 /* big_int_add_sub.h */; };
 		8C9A7BDE1644DBC4003FD806 /* big_int_divide.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A7BC71644DBC4003FD806 /* big_int_divide.cpp */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		8C3EF24A1C3263C6006F7EF5 /* log.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = log.txt; sourceTree = "<group>"; };
+		8C3EF24D1C45CF97006F7EF5 /* mandel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mandel.cpp; path = ../../Desktop/programming/mandel.cpp; sourceTree = "<group>"; };
 		8C9A7BB51644DB3A003FD806 /* big_int_new.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = big_int_new.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9A7BB91644DB3A003FD806 /* big_int_new-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "big_int_new-Prefix.pch"; sourceTree = "<group>"; };
 		8C9A7BBA1644DB3A003FD806 /* big_int_newProj.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = big_int_newProj.xcconfig; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				8C9A7BD41644DBC4003FD806 /* multithread_radix_convert.h */,
 				8C9A7BD51644DBC4003FD806 /* multithreaded_fourier.cpp */,
 				8C9A7BD61644DBC4003FD806 /* multithreaded_fourier.h */,
+				8C3EF24D1C45CF97006F7EF5 /* mandel.cpp */,
 				8C9A7BD71644DBC4003FD806 /* ordinary_radix_converter.cpp */,
 				8C9A7BD81644DBC4003FD806 /* ordinary_radix_converter.h */,
 				8C9A7BD91644DBC4003FD806 /* thread_type.h */,
@@ -210,6 +213,7 @@
 				8C9A7BDE1644DBC4003FD806 /* big_int_divide.cpp in Sources */,
 				8C9A7BE01644DBC4003FD806 /* big_int_io.cpp in Sources */,
 				8C9A7BE21644DBC4003FD806 /* big_int_multiply.cpp in Sources */,
+				8C3EF24E1C45CF97006F7EF5 /* mandel.cpp in Sources */,
 				8C9A7BE41644DBC4003FD806 /* big_int_sqrt.cpp in Sources */,
 				8C9A7BE71644DBC4003FD806 /* decimal_converter_func.cpp in Sources */,
 				8C9A7BEA1644DBC4003FD806 /* multithread_radix_convert.cpp in Sources */,

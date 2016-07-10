@@ -123,3 +123,5 @@ So what's next (after rewriting it to use futures)?
     - Speed up multiplication more via the FFT and the GPU; that'll really accelerate radix conversion, due to its reliance on long division and multiplication in many, many places. In addition
 
     - Lock-free and/or persistent data structures to store the temporary powers of 10 required to do huge long divisions. Perhaps a hash-map instead of a map (right now, it uses locking). Can you even do that in C++??
+
+    - Adaptive code that handles the precision issue in the FFT mentioned above. Demystified the 128bit quad precision availability. Unfortunately, it is only available in software; long doubles in hardware are indelibly only 80 bits. Also, it must be compiled with GNU (although, I'm sure, there's probably a way of including it in llvm that I haven't figured out yet). Practically, this means anything using 128 bit precision is going to be sloooooowwwww.
